@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap:520px;
+    padding: 20px;
+}
+.left-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.Right-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.links a{
+    padding-left: 30px;
+    color:gray ;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+     margin: auto;
+     background: #C1DCDC;
+     height: 500px;
+     width: 97%;
+     border-radius: 25px;
+}
+.banner-left-part{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   
+}
+.bannerdata{
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+}
+.banner-right-part{
+    width: 47%;
+    height: 500px;
+    position: relative;
+}
+.banner-right-part .img1{
+    position: absolute;
+    top: -360px;
+    left: 700px;
+}
+.img2{
+    position: absolute;
+    top: -486px ;
+    left: 770px;
+}
+.img3{
+    position: absolute;
+    top: -155px ;
+    left: 530px;
+}
+.img4{
+    position: absolute;
+    top: -490px ;
+    left:185%;
+}
+.selling-part{
+    width: 100%;
+    height: 450px;
+    gap: 20px;
+    display: flex;
+}
+.selling-part div{
+    width: 25%;
+    height: 450px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left:40px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about {
+    width: 100%;
+    height: 500px;
+}
+.part-1{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part-2{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+.part-2>div{
+    width: 33.33%;
+    height: 350px;
+}
+
+.logo1,.logo2,.logo3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.categories{
+    width: 100%;
+    height: 800px;
+   
+   
+}
+.category-1{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: white;
+}
+.category-2{
+    width: 100%;
+    height: 630px;
+    background-color:#C1DCDC;
+    display: flex;
+   text-align: center;
+}
+.category-2 > div{
+    width: 33.33%;
+    height: 350px;
+    
+}
+.explore{
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: fit-content;
+    padding: 5px 20px;
+   margin-left: 150px;
+   
+}
+.accessories{
+    line-height: 1.5;
+    padding-top: 45px;
+}
+.nature,.artificial{
+    margin-top: -45px;
+}
+.customers{
+    width: 100%;
+    height: 400px;
+}
+.text{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+.feedback{
+   display: flex;
+   gap: 20px;
+    width: 100%;
+    height: 250px;
+    padding-left: 30px;
+    
+}
+.feedback1{
+    background-color: #C1DCDC;
+    width: 50%;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
+    
+}
+.person1{
+   display: flex;
+   align-items: center;
+   
+}
+.feedback1-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: #C1DCDC;
+    width: 100%;
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-part-1{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left-part{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.footer-right-part{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    padding-right: 40px;
+    line-height: 1.9;
+}
+.footer-right-part h4{
+    color: gray;
+}
+.footer-part-2{
+    width: 100%;
+    height: 50px;
+    text-align:left;
+    padding-left: 40px;
+}
